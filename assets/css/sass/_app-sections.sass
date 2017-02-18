@@ -1,0 +1,124 @@
+//This was original concept, had to MVP keep around and figure out media queries.
+//#intro
+//    background:
+//        image: url(/assets/img/home/empulse-dash-mobile-shadow-crop.png), url(/assets/img/home/skyprize-offer-shadow-crop.png)
+//        repeat: no-repeat, no-repeat
+//        position: right center, left center
+//        size: auto 65%, auto 65%
+
+// MVP = good enough???
+#intro
+    background:
+        image: url(/assets/img/home/intro-bg.jpg)
+        repeat: no-repeat
+        position: center center
+        size: cover
+
+#portfolio
+
+    .header
+        position: absolute
+        background-color: rgba(255,255,255,0.8)
+        width: 100%
+        z-index: 1000
+        padding: rem-calc(25) 0
+        text-align: center
+
+        h1,h2,h3,h4,h5,p
+            margin: 0
+
+
+
+#designerd
+    background:
+        image: url(/assets/img/home/clomads-white-casual.jpg)
+        repeat: no-repeat
+        position: 20% bottom
+        size: auto 95%
+    @media #{$medium-only}
+        background:
+            size: auto 95%
+            position: -10% bottom
+    @media #{$small-only}
+        background:
+            size: auto rem-calc(430)
+            position: center bottom
+
+    .space
+        height: rem-calc(400)
+//Portfolio specifics
+#routes-panel
+    .logo
+        margin-bottom: rem-calc(20)
+
+#skyprize-panel
+    h2
+        @media (max-width:400px)
+            margin-left: -15px
+
+#jekyll-sass-logo
+    max-width: rem-calc(300)
+        margin: -20px
+
+
+
+//portfolio sections refactor each into own file soon
+
+//ALLYTEES
+
+#allytees-process
+    background:
+        image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/assets/img/work/allytees/allytees-joe-whiteboard.jpg)
+        repeat: repeat, no-repeat
+        position: left top, left top
+        size: auto, cover
+    @media #{$small-only}
+        background:
+            position: top left, rem-calc(-500) top
+    @media #{$medium-only}
+        background:
+            position: top left, rem-calc(-200) top
+
+#allytees-result
+    background:
+        image: url(/assets/img/work/allytees/allytees-result.jpg)
+        repeat: no-repeat
+        position: right bottom
+        size: 90% auto
+    @media #{$large-up}
+        background:
+            size: auto 90%
+
+// SKYPRIZE
+#skyprize-intro
+    background:
+        image: url(/assets/img/work/skyprize/skyprize-wireframe-swipes-grey.jpg)
+        repeat: no-repeat
+        position: left bottom
+        size: auto 80%
+    @media #{$small-only}
+        background:
+            size: 110% auto
+            position: rem-calc(-30) bottom
+
+#skyprize-quote
+    background:
+        image: url(/assets/img/work/skyprize/skyprize-balsamiq-grey.jpg)
+        repeat: no-repeat
+        position: center center
+        size: cover
+
+#skyprize-whitelabel
+    .twentytwenty-before-label:before
+        content: 'Branded'
+    .twentytwenty-after-label:before
+        content: 'Original'
+
+//ROUTES
+
+#routes-quote
+    background:
+        image: url(/assets/img/work/routes/routes-nodes-bg-grey.jpg)
+        repeat: no-repeat
+        position: right top
+        size: auto 100%

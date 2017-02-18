@@ -1,0 +1,142 @@
+.text-right
+    text-align: right
+.text-center
+    text-align: center
+.text-white
+    color: $white
+.caption
+    display: block
+    text-align: center
+    margin-top: 20px
+.hero
+    padding: rem-calc(100) 0
+    @media (max-width:600px)
+        padding: rem-calc(50) 0
+
+    &.alt
+        background-color: $altgrey
+    &.short
+        padding: rem-calc(50) 0
+        @media (max-width:600px)
+            padding: rem-calc(25) 0
+    &.bottom-out
+        padding: rem-calc(100) 0 0
+
+.small-space
+    @media #{$small-only}
+        height: rem-calc(50)
+.no-wrap
+    white-space: nowrap
+div.cyan
+    background-color: $cyan
+div.magenta
+    background-color: $magenta
+div.yellow
+    background-color: $yellow
+div.kblack
+    background-color: $kblack
+.box-shadow
+    -webkit-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.5)
+    -moz-box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.5)
+    box-shadow: 8px 8px 12px 0px rgba(0,0,0,0.5)
+
+.top-bar
+    padding: rem-calc(40)
+    background:
+        image: url(/assets/img/global/logo.svg)
+        position: top right
+        repeat: no-repeat
+        size: auto rem-calc(30)
+    @media (max-width:600px)
+        padding: rem-calc(30) rem-calc(10)
+        background:
+            size: auto rem-calc(20)
+
+//.title-area
+
+h1,h2,h3,h4,h5,p
+    margin: 0
+
+a
+    color: $jet
+    font-weight: bold
+    &:hover
+        color: $black
+
+.head-margin
+    h1,h2,h3,h4,h5
+        margin-bottom: rem-calc(40)
+.p-margin
+    p
+        margin-bottom: rem-calc(10px)
+
+footer
+    background:
+        image: url(/assets/img/global/logo.svg)
+        position: bottom right
+        repeat: no-repeat
+        size: auto rem-calc(30)
+    border-top: 1px solid $smoke
+    padding: rem-calc(50) 0
+    h1,h2,h3,h4,h5,p,li
+        line-height: 1
+.yourmom
+    display: none !important
+
+
+#contact-cover
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    text-align: center
+    background-color: rgba(255,255,255,0.7)
+    padding-top: 20%
+
+//this should be happening already, not sure why it's overridden by base styles
+textarea
+    margin: 0 0 1rem 0
+
+.social-media
+
+    a
+        color: $oil
+
+        &:hover
+            color: $black
+
+
+
+
+// From Silkroute Build
+//.jumbotron {
+//    min-height: rem-calc(100);
+//    background-size: auto 110%;
+//    background-position: bottom right;
+//    background-repeat: no-repeat;
+//    color: $snow;
+//    h1{
+//        font-size: rem-calc(100);
+//        margin: 0;
+//        color:inherit;
+//        line-height: 1;
+//    }
+//    p{
+//        font-size: rem-calc(30);
+//        font-weight:300;
+//        margin: 0;
+//    }
+//    .row{
+//    // padding: rem-calc(120) rem-calc(30);
+//        padding: rem-calc(120) 0;
+//    }
+//
+//}
+//
+//.hero{
+//    text-align: center;
+//    .row{
+//        padding: rem-calc(100) 0;
+//    }
+//}

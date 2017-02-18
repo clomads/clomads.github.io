@@ -1,0 +1,33 @@
+---
+title: Chloe Madison Parfitt
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: clomads@gmail.com
+description: I take great pride in designing cohesive visual engagements for products
+  on all screen sizes. It all begins with a concept and stepping through the prodcedures
+  needed to make that concept into a reality are my bread and butter. Research, wireframing,
+  and conceptual design through to finalization of every pixel, making sure that the
+  user can get done what they wanted to get done. My nearly four years of UX and UI
+  visual design are augmented by a solid understanding of backend and native application
+  development, and possesion of a strong set of skills on the front end (HTML, CSS,
+  Javascript). Furthermore, my background in filmmaking and motion graphics give me
+  distinct concept of motion and help me prototype interactions before development.
+tagline: UX/UI Visual Designer and Front-End Respponsive Developer
+baseurl: ''
+url: http://www.clomads.com
+twitter_username: clomads
+github_username: clomads
+facebook_username: clomads
+linkedin_username: clomads
+instagram_username: clomads
+pinterest_username: clomads
+markdown: kramdown
+sass:
+  sass_dir: assets/css
+  style: :nested
